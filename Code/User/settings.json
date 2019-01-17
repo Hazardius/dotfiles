@@ -6,7 +6,6 @@
         "suppressWelcomeNotice": true
     },
     "workbench.iconTheme": "vscode-icons",
-    "guides.enabled": false,
     "window.zoomLevel": 0,
     "c-cpp-flylint.cppcheck.enable": false,
     "c-cpp-flylint.flexelint.enable": false,
@@ -33,9 +32,7 @@
     ],
     // For mac:
     // "gitlens.keymap": "alternate",
-    "gitlens.historyExplorer.enabled": true,
     "workbench.colorTheme": "Dracula",
-    "gitlens.gitExplorer.files.layout": "tree",
     "editor.fontSize": 14,
     "editor.tokenColorCustomizations": {
         "textMateRules": [
@@ -104,6 +101,7 @@
     "search.showLineNumbers": true,
     "workbench.editor.highlightModifiedTabs": true,
     "files.trimTrailingWhitespace": true,
+    "powershell.powerShellExePath": "C:\\Program Files\\PowerShell\\6\\pwsh.exe",
     "terminal.integrated.shell.windows": "C:\\Program Files\\PowerShell\\6\\pwsh.exe",
     "terminal.integrated.rendererType": "dom",
     "azureFunctions.showCoreToolsWarning": false,
@@ -118,5 +116,7 @@
     ],
     "breadcrumbs.enabled": true,
     "editor.renderControlCharacters": true,
-    "diffEditor.ignoreTrimWhitespace": false
+    "diffEditor.ignoreTrimWhitespace": false,
+    "csharp.suppressDotnetRestoreNotification": true,
+    "omnisharp.projectLoadTimeout": 120
 }
