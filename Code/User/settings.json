@@ -34,7 +34,7 @@
     // For mac:
     // "gitlens.keymap": "alternate",
     "gitlens.historyExplorer.enabled": true,
-    "workbench.colorTheme": "Oceanic Next (dimmed bg)",
+    "workbench.colorTheme": "Dracula",
     "gitlens.gitExplorer.files.layout": "tree",
     "editor.fontSize": 14,
     "editor.tokenColorCustomizations": {
@@ -104,7 +104,19 @@
     "search.showLineNumbers": true,
     "workbench.editor.highlightModifiedTabs": true,
     "files.trimTrailingWhitespace": true,
-    "terminal.integrated.shell.windows": "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
+    "terminal.integrated.shell.windows": "C:\\Program Files\\PowerShell\\6\\pwsh.exe",
     "terminal.integrated.rendererType": "dom",
     "azureFunctions.showCoreToolsWarning": false,
+    "cSpell.userWords": [
+        "demuxers",
+        "exif",
+        "ffprobe",
+        "parallelize",
+        "uploader",
+        "vcos",
+        "xunit"
+    ],
+    "breadcrumbs.enabled": true,
+    "editor.renderControlCharacters": true,
+    "diffEditor.ignoreTrimWhitespace": false
 }
