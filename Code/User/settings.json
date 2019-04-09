@@ -1,38 +1,26 @@
 {
+    "breadcrumbs.enabled": true,
+    "debug.console.fontFamily": "Fira Code",
     "editor.fontFamily": "Fira Code",
     "editor.fontLigatures": true,
     "gitlens.advanced.messages": {
         "suppressShowKeyBindingsNotice": true,
         "suppressWelcomeNotice": true
     },
-    "workbench.iconTheme": "vscode-icons",
     "window.zoomLevel": 0,
-    "c-cpp-flylint.cppcheck.enable": false,
-    "c-cpp-flylint.flexelint.enable": false,
-    "c-cpp-flylint.standard": [
-        "c11",
-        "c++11"
-    ],
-    "c-cpp-flylint.clang.extraArgs": [
-        "-Wno-format-y2k",
-        // "-Wundeclared-identifier",
-        "-Wundeclared-selector",
-    ],
-    "c-cpp-flylint.clang.warnings": [
-        "no-c++98-compat",
-        "no-c++98-compat-pedantic",
-        "no-reserved-id-macro",
-    ],
     "explorer.confirmDelete": false,
     "editor.renderWhitespace": "all",
+    "editor.renderControlCharacters": true,
     "editor.rulers": [
         80,
         100,
         120
     ],
+    "editor.suggestSelection": "first",
     // For mac:
     // "gitlens.keymap": "alternate",
     "workbench.colorTheme": "Dracula",
+    "workbench.iconTheme": "vscode-icons",
     "editor.fontSize": 14,
     "editor.tokenColorCustomizations": {
         "textMateRules": [
@@ -105,18 +93,49 @@
     "terminal.integrated.shell.windows": "C:\\Program Files\\PowerShell\\6\\pwsh.exe",
     "terminal.integrated.rendererType": "dom",
     "azureFunctions.showCoreToolsWarning": false,
+    "diffEditor.ignoreTrimWhitespace": false,
+    "csharp.suppressDotnetRestoreNotification": true,
+    "omnisharp.projectLoadTimeout": 120,
+    "cSpell.enabledLanguageIds": [
+        "asciidoc",
+        "c",
+        "cpp",
+        "csharp",
+        "css",
+        "go",
+        "handlebars",
+        "html",
+        "jade",
+        "javascript",
+        "javascriptreact",
+        "json",
+        "latex",
+        "less",
+        "markdown",
+        "php",
+        "plaintext",
+        "powershell",
+        "pub",
+        "python",
+        "restructuredtext",
+        "scss",
+        "text",
+        "typescript",
+        "typescriptreact",
+        "yml"
+    ],
     "cSpell.userWords": [
+        "changeset",
+        "cmdlet",
         "demuxers",
+        "embeddable",
         "exif",
         "ffprobe",
         "parallelize",
+        "recurse",
         "uploader",
         "vcos",
+        "vizrt",
         "xunit"
-    ],
-    "breadcrumbs.enabled": true,
-    "editor.renderControlCharacters": true,
-    "diffEditor.ignoreTrimWhitespace": false,
-    "csharp.suppressDotnetRestoreNotification": true,
-    "omnisharp.projectLoadTimeout": 120
+    ]
 }
