@@ -1,5 +1,4 @@
 {
-    "breadcrumbs.enabled": true,
     "debug.console.fontFamily": "Fira Code",
     "editor.fontFamily": "Fira Code",
     "editor.fontLigatures": true,
@@ -17,10 +16,10 @@
         120
     ],
     "editor.suggestSelection": "first",
+    "editor.dragAndDrop": false,
     // For mac:
     // "gitlens.keymap": "alternate",
     "workbench.colorTheme": "Dracula",
-    "workbench.iconTheme": "vscode-icons",
     "editor.fontSize": 14,
     "editor.tokenColorCustomizations": {
         "textMateRules": [
@@ -124,14 +123,19 @@
         "typescriptreact",
         "yml"
     ],
+    "hg.annotationEnabled": true,
     "cSpell.userWords": [
         "changeset",
         "cmdlet",
         "demuxers",
+        "dependee",
         "embeddable",
         "exif",
         "ffprobe",
+        "flurl",
+        "healthcheck",
         "parallelize",
+        "pylint",
         "recurse",
         "uploader",
         "vcos",
