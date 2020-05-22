@@ -1,13 +1,16 @@
 {
+    "azureFunctions.showCoreToolsWarning": false,
     "debug.console.fontFamily": "Fira Code",
+    "debug.console.wordWrap": false,
+    "diffEditor.ignoreTrimWhitespace": false,
+    "diffEditor.renderSideBySide": false,
+    "editor.codeActionsOnSave": {
+        "source.fixAll.eslint": false
+    },
+    "editor.dragAndDrop": false,
     "editor.fontFamily": "Fira Code",
     "editor.fontLigatures": true,
-    "gitlens.advanced.messages": {
-        "suppressShowKeyBindingsNotice": true,
-        "suppressWelcomeNotice": true
-    },
-    "window.zoomLevel": 0,
-    "explorer.confirmDelete": false,
+    "editor.fontSize": 14,
     "editor.renderWhitespace": "all",
     "editor.renderControlCharacters": true,
     "editor.rulers": [
@@ -16,11 +19,6 @@
         120
     ],
     "editor.suggestSelection": "first",
-    "editor.dragAndDrop": false,
-    // For mac:
-    // "gitlens.keymap": "alternate",
-    "workbench.colorTheme": "Dracula",
-    "editor.fontSize": 14,
     "editor.tokenColorCustomizations": {
         "textMateRules": [
             {
@@ -85,17 +83,27 @@
             }
         ]
     },
-    "search.showLineNumbers": true,
-    "workbench.editor.highlightModifiedTabs": true,
+    "explorer.confirmDelete": false,
     "files.trimTrailingWhitespace": true,
-    "powershell.powerShellExePath": "C:\\Program Files\\PowerShell\\7-preview\\pwsh.exe",
-    "terminal.integrated.shell.windows": "C:\\Program Files\\PowerShell\\7-preview\\pwsh.exe",
-    "terminal.integrated.rendererType": "dom",
-    "azureFunctions.showCoreToolsWarning": false,
-    "diffEditor.ignoreTrimWhitespace": false,
+    "gitlens.advanced.messages": {
+        "suppressShowKeyBindingsNotice": true,
+        "suppressWelcomeNotice": true
+    },
+    "gitlens.defaultDateFormat": "YYYY-MM-DD h:mma",
+    "gitlens.defaultDateShortFormat": "YYYY-MM-DD",
+    // For mac:
+    // "gitlens.keymap": "alternate",
+    "search.showLineNumbers": true,
+    "terminal.integrated.shell.windows": "C:\\Program Files\\PowerShell\\7\\pwsh.exe",
+    // "terminal.integrated.rendererType": "dom",
+    "terminal.integrated.rendererType": "experimentalWebgl",
+    "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+    "window.zoomLevel": 0,
+    "workbench.colorTheme": "Dracula",
+    "workbench.editor.highlightModifiedTabs": true,
+
     "csharp.suppressDotnetRestoreNotification": true,
-    "omnisharp.projectLoadTimeout": 120,
-    "cSpell.enabledLanguageIds": [
+    "cSpell.enableFiletypes": [
         "asciidoc",
         "c",
         "cpp",
@@ -123,8 +131,8 @@
         "typescriptreact",
         "yml"
     ],
-    "hg.annotationEnabled": true,
     "cSpell.userWords": [
+        "ardome",
         "changeset",
         "cmdlet",
         "demuxers",
@@ -134,12 +142,31 @@
         "ffprobe",
         "flurl",
         "healthcheck",
+        "interruptible",
         "parallelize",
         "pylint",
         "recurse",
+        "repoll",
         "uploader",
         "vcos",
         "vizrt",
         "xunit"
-    ]
+    ],
+    "eslint.validate": [
+        "javascript",
+        "javascriptreact",
+        "typescript",
+        "typescriptreact",
+        "vue"
+    ],
+    "hg.annotationEnabled": true,
+    "java.configuration.checkProjectSettingsExclusions": false,
+    "java.home": "C:\\Program Files\\ojdkbuild\\java-1.8.0-openjdk-1.8.0.212-1",
+    "java.semanticHighlighting.enabled": true,
+    "[javascript]": {
+        "editor.defaultFormatter": "vscode.typescript-language-features"
+    },
+    "omnisharp.projectLoadTimeout": 120,
+    "python.jediEnabled": false,
+    "vetur.validation.template": false
 }
