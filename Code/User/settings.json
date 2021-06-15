@@ -1,5 +1,4 @@
 {
-    "azureFunctions.showCoreToolsWarning": false,
     "debug.console.fontFamily": "Fira Code",
     "debug.console.wordWrap": false,
     "diffEditor.ignoreTrimWhitespace": false,
@@ -8,6 +7,7 @@
         "source.fixAll.eslint": false
     },
     "editor.dragAndDrop": false,
+    "editor.find.cursorMoveOnType": false,
     "editor.fontFamily": "Fira Code",
     "editor.fontLigatures": true,
     "editor.fontSize": 14,
@@ -85,23 +85,30 @@
     },
     "explorer.confirmDelete": false,
     "files.trimTrailingWhitespace": true,
-    "gitlens.advanced.messages": {
-        "suppressShowKeyBindingsNotice": true,
-        "suppressWelcomeNotice": true
-    },
     "gitlens.defaultDateFormat": "YYYY-MM-DD h:mma",
     "gitlens.defaultDateShortFormat": "YYYY-MM-DD",
     // For mac:
     // "gitlens.keymap": "alternate",
     "search.showLineNumbers": true,
-    "terminal.integrated.shell.windows": "C:\\Program Files\\PowerShell\\7\\pwsh.exe",
+    "terminal.integrated.profiles.windows": {
+        "PowerShell -NoProfile": {
+          "source": "PowerShell",
+          "args": ["-NoProfile"]
+        }
+    },
+    "terminal.integrated.defaultProfile.windows": "PowerShell -NoProfile",
     // "terminal.integrated.rendererType": "dom",
     "terminal.integrated.rendererType": "experimentalWebgl",
     "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
     "window.zoomLevel": 0,
     "workbench.colorTheme": "Dracula",
     "workbench.editor.highlightModifiedTabs": true,
+    "workbench.editorAssociations": {
+        "*.ipynb": "jupyter.notebook.ipynb"
+    },
 
+    "azureFunctions.showCoreToolsWarning": false,
+    "crates.localCargoIndexBranch": "origin/HEAD",
     "csharp.suppressDotnetRestoreNotification": true,
     "cSpell.enableFiletypes": [
         "asciidoc",
@@ -161,12 +168,14 @@
     ],
     "hg.annotationEnabled": true,
     "java.configuration.checkProjectSettingsExclusions": false,
-    "java.home": "C:\\Program Files\\ojdkbuild\\java-1.8.0-openjdk-1.8.0.212-1",
+    "java.home": "C:\\Program Files\\ojdkbuild\\java-11-openjdk-11.0.8-1",
     "java.semanticHighlighting.enabled": true,
     "[javascript]": {
         "editor.defaultFormatter": "vscode.typescript-language-features"
     },
+    "jupyter.interactiveWindowMode": "perFile",
     "omnisharp.projectLoadTimeout": 120,
+    // "python.dataScience.debugJustMyCode": false,
     "python.jediEnabled": false,
     "vetur.validation.template": false
 }
