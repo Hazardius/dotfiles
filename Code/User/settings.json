@@ -113,36 +113,12 @@
     "crates.localCargoIndexBranch": "origin/HEAD",
     "csharp.suppressDotnetRestoreNotification": true,
     "cSpell.enableFiletypes": [
-        "asciidoc",
-        "c",
-        "cpp",
-        "csharp",
-        "css",
-        "go",
-        "handlebars",
-        "html",
-        "jade",
-        "javascript",
-        "javascriptreact",
-        "json",
-        "latex",
-        "less",
-        "markdown",
-        "php",
-        "plaintext",
-        "powershell",
-        "pub",
-        "python",
-        "restructuredtext",
-        "scss",
-        "text",
-        "typescript",
-        "typescriptreact",
-        "yml"
+        "powershell"
     ],
     "cSpell.ignoreRegExpList": [
-        "[\"^\\\\$.+\", \"http\", \"https\"]"
+        "\"http\", \"https\""
     ],
+    "cSpell.maxDuplicateProblems": 3,
     "cSpell.userWords": [
         "ardome",
         "changeset",
@@ -159,6 +135,7 @@
         "pylint",
         "recurse",
         "repoll",
+        "resharper",
         "uploader",
         "vcos",
         "vizrt",
