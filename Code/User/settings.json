@@ -11,6 +11,7 @@
     "editor.fontFamily": "Fira Code",
     "editor.fontLigatures": true,
     "editor.fontSize": 14,
+    "editor.fontWeight": 500,
     "editor.renderWhitespace": "all",
     "editor.renderControlCharacters": true,
     "editor.rulers": [
@@ -87,18 +88,19 @@
     "files.trimTrailingWhitespace": true,
     "gitlens.defaultDateFormat": "YYYY-MM-DD h:mma",
     "gitlens.defaultDateShortFormat": "YYYY-MM-DD",
-    // For mac:
-    // "gitlens.keymap": "alternate",
     "search.showLineNumbers": true,
     "terminal.integrated.profiles.windows": {
         "PowerShell -NoProfile": {
           "source": "PowerShell",
           "args": ["-NoProfile"]
+        },
+        "Windows PowerShell": {
+          "path": "powershell.exe",
+          "args": [""]
         }
     },
     "terminal.integrated.defaultProfile.windows": "PowerShell -NoProfile",
-    // "terminal.integrated.rendererType": "dom",
-    "terminal.integrated.rendererType": "experimentalWebgl",
+    // "terminal.integrated.defaultProfile.windows": "Windows PowerShell",
     "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
     "window.zoomLevel": 0,
     "workbench.colorTheme": "Dracula",
@@ -138,6 +140,9 @@
         "typescriptreact",
         "yml"
     ],
+    "cSpell.ignoreRegExpList": [
+        "[\"^\\\\$.+\", \"http\", \"https\"]"
+    ],
     "cSpell.userWords": [
         "ardome",
         "changeset",
@@ -167,15 +172,30 @@
         "vue"
     ],
     "hg.annotationEnabled": true,
+    "[html]": {
+        "editor.defaultFormatter": "vscode.html-language-features"
+    },
     "java.configuration.checkProjectSettingsExclusions": false,
     "java.home": "C:\\Program Files\\ojdkbuild\\java-11-openjdk-11.0.8-1",
     "java.semanticHighlighting.enabled": true,
     "[javascript]": {
         "editor.defaultFormatter": "vscode.typescript-language-features"
     },
+    "javascript.inlayHints.enumMemberValues.enabled": true,
+    "javascript.inlayHints.functionLikeReturnTypes.enabled": true,
+    "javascript.inlayHints.parameterNames.enabled": "all",
+    "javascript.inlayHints.parameterTypes.enabled": true,
+    "javascript.inlayHints.propertyDeclarationTypes.enabled": true,
+    "javascript.inlayHints.variableTypes.enabled": true,
     "jupyter.interactiveWindowMode": "perFile",
     "omnisharp.projectLoadTimeout": 120,
     // "python.dataScience.debugJustMyCode": false,
     "python.jediEnabled": false,
+    "typescript.inlayHints.enumMemberValues.enabled": true,
+    "typescript.inlayHints.functionLikeReturnTypes.enabled": true,
+    "typescript.inlayHints.parameterNames.enabled": "all",
+    "typescript.inlayHints.parameterTypes.enabled": true,
+    "typescript.inlayHints.propertyDeclarationTypes.enabled": true,
+    "typescript.inlayHints.variableTypes.enabled": true,
     "vetur.validation.template": false
 }
